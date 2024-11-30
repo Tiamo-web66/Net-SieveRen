@@ -333,6 +333,7 @@ declare namespace App {
             no: string;
             yes: string;
           };
+          managementAdmin: string
         };
         datatable: {
           itemCount: string;

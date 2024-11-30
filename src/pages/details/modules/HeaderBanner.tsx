@@ -13,7 +13,7 @@ function goIndex() {
 const HeaderBanner = () => {
   return (
     <DarkModeContainer className="flex flex-y-center justify-between justify-items-stretch p-4 px-8 pl-32 shadow-header">
-      <div className="h-full flex-y-center cursor-pointer text-2xl font-extrabold" onClick={goIndex}>
+      <div className="h-full flex-y-center cursor-pointer text-2xl font-extrabold">
         <img
           src={logo}
           alt=""

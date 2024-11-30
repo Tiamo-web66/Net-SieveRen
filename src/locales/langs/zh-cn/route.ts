@@ -48,6 +48,8 @@ const route: App.I18n.Schema['translation']['route'] = {
   resources: '资源管理',
   'resources_cloudresources': '云资源',
   'resources_resourceclassification': '资源分类',
+  seach: '搜索',
+  details: '详情'
 };
 
 export default route;

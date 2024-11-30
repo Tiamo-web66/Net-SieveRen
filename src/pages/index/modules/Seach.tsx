@@ -2,7 +2,7 @@ import logo from '@/assets/imgs/logo.png';
 import { useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 import { AutoComplete, message, Input, Card } from 'antd';
-
+const APPTILE  = import.meta.env.VITE_APP_TITLE;
 const tabList = [
   {
     key: 'tab1',
@@ -48,7 +48,7 @@ const Seach = memo(() => {
             alt=""
             className="mr-5 inline-block h-45px w-45px rounded-full"
           />
-          <span>Net-SieveRen</span>
+          <span>{APPTILE}</span>
         </div>
         <span className="block text-sm">致力于免费提供夸克网盘、阿里云盘、迅雷网盘的资源搜索服务</span>
       </div>
